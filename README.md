@@ -1,3 +1,5 @@
+Here is our propose I<sup>2</sup>-Med Architecture, a unified interpretable medical inference framework that
+enforces structured reasoning and visual faithfulness in medical VLMs
 <p align="center">
   <img
     src="assets/Architecture.png"
@@ -5,7 +7,7 @@
   />
 </p>
 <p align="center">
-  <b>Fig. 2:</b> Overview of Proposed I2-Med Model.
+  <b>Fig. 2:</b> Overview of Proposed I<sup>2</sup>-Med Model.
 </p>
 
 
@@ -75,12 +77,12 @@ arise solely from the proposed inference-time visual grounding mechanism.
 
 ### Summary of Results 
 In this subsection, we comprehensively evaluate the performance of the proposed
-I2Med model across eight distinct medical imaging modalities.Comparison of performance across eight medical modalities against baseline
+I<sup>2</sup>Med model across eight distinct medical imaging modalities.Comparison of performance across eight medical modalities against baseline
 models in Table 1.Comparison of our proposed models with medical VLMs baselines on
 five medical VQA tasks across five clinical reasoning types, evaluated under
 general-purpose zero-shot, medical zero-shot, and fine-tuned models in Tabl 2. The quantitative
 results are summarized in Table S.1. Additionally, we assess the effectiveness
-of I2Med on five clinical reasoning tasks to examine its generalization capabil-
+of I<sup>2</sup>Med on five clinical reasoning tasks to examine its generalization capabil-
 ity beyond imaging-based evaluation. The corresponding results are reported in
 Table S.2
 
