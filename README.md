@@ -1,12 +1,14 @@
 <p align="center">
   <img
-    width="842"
-    height="595"
+    width="1024"
+    height="600"
     alt="download"
     src="https://github.com/user-attachments/assets/5e67539c-ee75-4757-bd2a-8af82dd29a3f"
   />
 </p>
-
+<p align="center">
+  <b>Fig. 2:</b> Overview of Proposed I2-Med Model.
+</p>
 ## To Run 
 1. Download the model weights of the [VLM](https://huggingface.co/yuxianglai117/Med-R1/tree/main) and [BioMedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
 2. Set the parameters in run.sh
@@ -20,7 +22,7 @@ Here you can see the qualitative results from our Logits calliberation method . 
 2. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/a39f3aff-7559-441c-8e5a-ef3913a9cb4f" />
 3. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/1d4d249d-be3e-48a1-b30f-a8b84010d96c" />
 4. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/40457522-9c00-485c-b03e-656690611eca" />
-Here are the result
+
 
 ## Experimentation
 ### Implementation
@@ -71,13 +73,33 @@ the official testing split for evaluation. No additional fine-tuning or task-spe
 adaptation is performed on OmniMedVQA, ensuring that performance gains
 arise solely from the proposed inference-time visual grounding mechanism.
 
-### Detailed Results 
+### Summary of Results 
 In this subsection, we comprehensively evaluate the performance of the proposed
-I2Med model across eight distinct medical imaging modalities. The quantitative
+I2Med model across eight distinct medical imaging modalities.Comparison of performance across eight medical modalities against baseline
+models in Table 1.Comparison of our proposed models with medical VLMs baselines on
+five medical VQA tasks across five clinical reasoning types, evaluated under
+general-purpose zero-shot, medical zero-shot, and fine-tuned models in Tabl 2. The quantitative
 results are summarized in Table S.1. Additionally, we assess the effectiveness
 of I2Med on five clinical reasoning tasks to examine its generalization capabil-
 ity beyond imaging-based evaluation. The corresponding results are reported in
 Table S.2
+
+<p align="center">
+  <img
+    width="991"
+    height="535"
+    alt="image"
+    src="https://github.com/user-attachments/assets/646079d3-a1b2-43af-8528-3cf7e19a36e1"
+  />
+</p>
+<p align="center">
+  <img
+    width="967"
+    height="516"
+    alt="image"
+    src="https://github.com/user-attachments/assets/558a31c2-34f1-41b4-ada8-ba6501c32c2e"
+  />
+</p>
 <p align="center">
   <img
     width="836"
@@ -96,22 +118,7 @@ Table S.2
   />
 </p>
 
-<p align="center">
-  <img
-    width="991"
-    height="535"
-    alt="image"
-    src="https://github.com/user-attachments/assets/646079d3-a1b2-43af-8528-3cf7e19a36e1"
-  />
-</p>
-<p align="center">
-  <img
-    width="967"
-    height="516"
-    alt="image"
-    src="https://github.com/user-attachments/assets/558a31c2-34f1-41b4-ada8-ba6501c32c2e"
-  />
-</p>
+
 ## Ablation Study
 Window sensitivity of Logits calliberation
 
