@@ -7,7 +7,7 @@
 bash run.sh
 ```
 ## Interpretability
-Here you can see the qualitative results from our Logits calliberation method
+Here you can see the qualitative results from our Logits calliberation method . Our method improve the Reasoning in comparision to the base model
 1. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/b41f28b3-cb74-439e-b73a-297c327e251d" />
 2. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/a39f3aff-7559-441c-8e5a-ef3913a9cb4f" />
 3. <br> <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/1d4d249d-be3e-48a1-b30f-a8b84010d96c" />
