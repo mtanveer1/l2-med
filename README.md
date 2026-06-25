@@ -120,7 +120,7 @@ Table S.2
 
 
 ## Ablation Study
-Window sensitivity of Logits calliberation
+Here below is how Window size affects the sensitivity of Logits calliberation
 
 | window size| Accuracy  |
 | --- | --- | 
