@@ -8,7 +8,7 @@
 </p>
 
 ## To Run 
-1. Download the model weights of the VLM and BioMedCLIP
+1. Download the model weights of the [VLM](https://huggingface.co/yuxianglai117/Med-R1/tree/main) and [BioMedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
 2. Set the parameters in run.sh
 3. Use the following command
 ```bash
@@ -71,6 +71,29 @@ the official testing split for evaluation. No additional fine-tuning or task-spe
 adaptation is performed on OmniMedVQA, ensuring that performance gains
 arise solely from the proposed inference-time visual grounding mechanism.
 
+### Detailed Results 
+In this subsection, we comprehensively evaluate the performance of the proposed
+I2Med model across eight distinct medical imaging modalities. The quantitative
+results are summarized in Table S.1. Additionally, we assess the effectiveness
+of I2Med on five clinical reasoning tasks to examine its generalization capabil-
+ity beyond imaging-based evaluation. The corresponding results are reported in
+Table S.2
+<p align="center">
+  <img
+    width="836"
+    height="306"
+    alt="image"
+    src="https://github.com/user-attachments/assets/ce4ad0f5-6ba4-4d8e-9629-5cd4bda219f5"
+  />
+</p>
+<p align="center">
+  <img
+    width="840"
+    height="215"
+    alt="image"
+    src="https://github.com/user-attachments/assets/ca0f9f32-e98b-4da9-aa50-e1dffa9b283d"
+  />
+</p>
 ## Ablation Study
 Window sensitivity of Logits calliberation
 
