@@ -1,3 +1,11 @@
+<p align="center">
+  <img
+    width="842"
+    height="595"
+    alt="download"
+    src="https://github.com/user-attachments/assets/5e67539c-ee75-4757-bd2a-8af82dd29a3f"
+  />
+</p>
 
 ## To Run 
 1. Download the model weights of the VLM and BioMedCLIP
