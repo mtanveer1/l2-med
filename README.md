@@ -122,7 +122,8 @@ Table S.2
 ## Ablation Study
 Here is how Window size affects the sensitivity of Logits calliberation
 <br>
-Table : Window size vs Accuracy on CT scan Vs CT scan
+
+**Table : Window size vs Accuracy on CT scan Vs CT scan**
 | window size| Accuracy  |
 | --- | --- | 
 | 8| 61.09%|
