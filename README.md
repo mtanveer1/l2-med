@@ -14,7 +14,7 @@ M. Sajid, Shreeyut Maheshwari, Akshat Mishra, Ritik Mishra, M. Tanveer
 
 ## 📢 News
 
-- **[2026.06]** Source code and pretrained models are publicly released.
+- **[2026.06]** Source code is publicly released.
 - **[2026.06]** 🎉 **I²-Med** has been accepted at **MICCAI 2026**.
 
 ---
