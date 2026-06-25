@@ -1,9 +1,7 @@
 <p align="center">
   <img
-    width="1024"
-    height="600"
-    alt="download"
-    src="https://github.com/user-attachments/assets/5e67539c-ee75-4757-bd2a-8af82dd29a3f"
+    src="assets/Architecture.png"
+    alt="Architecture"
   />
 </p>
 <p align="center">
