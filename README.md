@@ -9,6 +9,8 @@
 <p align="center">
   <b>Fig. 2:</b> Overview of Proposed I2-Med Model.
 </p>
+
+
 ## To Run 
 1. Download the model weights of the [VLM](https://huggingface.co/yuxianglai117/Med-R1/tree/main) and [BioMedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
 2. Set the parameters in run.sh
