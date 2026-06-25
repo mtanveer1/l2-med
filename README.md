@@ -86,12 +86,30 @@ Table S.2
     src="https://github.com/user-attachments/assets/ce4ad0f5-6ba4-4d8e-9629-5cd4bda219f5"
   />
 </p>
+
 <p align="center">
   <img
     width="840"
     height="215"
     alt="image"
     src="https://github.com/user-attachments/assets/ca0f9f32-e98b-4da9-aa50-e1dffa9b283d"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="991"
+    height="535"
+    alt="image"
+    src="https://github.com/user-attachments/assets/646079d3-a1b2-43af-8528-3cf7e19a36e1"
+  />
+</p>
+<p align="center">
+  <img
+    width="967"
+    height="516"
+    alt="image"
+    src="https://github.com/user-attachments/assets/558a31c2-34f1-41b4-ada8-ba6501c32c2e"
   />
 </p>
 ## Ablation Study
